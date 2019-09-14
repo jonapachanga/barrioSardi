@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar mode="ios" color="dark">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Editar perfil
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="checkmark"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding fullscreen>
+  <ion-grid padding-top class="ion-align-items-center">
+    <ion-row justify-content-center>
+      <ion-avatar class="ion-margin-start">
+        <img src="/assets/icon/daniela.jpeg">
+      </ion-avatar>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-button expand="full" fill="clear">Cambiar foto de perfil</ion-button>
+    </ion-row>
+  </ion-grid>
+
+  <ion-item-group margin-bottom>
+    <ion-item-divider>
+      <ion-label>Datos personales</ion-label>
+    </ion-item-divider>
+
+    <ion-item>
+      <ion-label position="stacked">Nombre</ion-label>
+      <ion-input placeholder="Nombre" value="Daniela"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Apellido</ion-label>
+      <ion-input placeholder="Apellido" value="Nuccetelli"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Departamento</ion-label>
+      <ion-input placeholder="Departamento" value="Bloque C"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Piso</ion-label>
+      <ion-input placeholder="Piso" value="2"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Telefono</ion-label>
+      <ion-input placeholder="Telefono" value="2604589874"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Telefono</ion-label>
+      <ion-input placeholder="Telefono" value="2604589874"></ion-input>
+    </ion-item>
+    <ion-item-divider>
+      <ion-label>Configuración</ion-label>
+    </ion-item-divider>
+    <ion-item>
+      <ion-label >Permitir que mis datos se vean</ion-label>
+      <ion-toggle color="primary" checked></ion-toggle>
+    </ion-item>
+  </ion-item-group>
+
+  <ion-button expand="block" fill="solid">Cerrar sesión</ion-button>
+
+</ion-content>

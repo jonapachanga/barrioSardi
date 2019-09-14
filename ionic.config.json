@@ -1,0 +1,7 @@
+{
+  "name": "appSardi",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

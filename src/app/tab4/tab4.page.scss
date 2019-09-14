@@ -1,0 +1,34 @@
+ion-content {
+  --padding-top: 20%;
+}
+
+.alarm {
+  width: 280px !important;
+  height: 280px !important;
+}
+
+.alarm-icon {
+  font-size: 160px !important;
+}
+
+.center-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-group {
+  position: fixed;
+  left: 0;
+  bottom: 5%;
+  right: 0;
+}
+
+.services {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+.services-icon {
+  font-size: 60px !important;
+}

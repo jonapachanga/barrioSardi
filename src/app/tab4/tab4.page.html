@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar mode="ios" color="dark">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Barrio Sardi</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-fab vertical="top" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon src="/assets/icon/snooze.svg"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-grid class="ion-align-items-center">
+    <ion-row justify-content-center>
+      <ion-fab-button margin-bottom class="alarm" color="danger">
+        <ion-icon class="alarm-icon" src="./assets/icon/alarm.svg"></ion-icon>
+      </ion-fab-button>
+      <ion-label style="font-weight: bold;">Presiona para activar la alarma sonora</ion-label>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid class="button-group">
+    <ion-row align-items-start>
+      <ion-col size="4" class="center-items">
+        <ion-button mode="ios" class="services" expand="block" fill="solid" color="light">
+          <ion-icon class="services-icon" src="./assets/icon/policeman.svg"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col size="4" class="center-items">
+        <ion-button mode="ios" class="services" expand="block" fill="solid" color="light">
+          <ion-icon class="services-icon" src="./assets/icon/fire.svg"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col size="4" class="center-items">
+        <ion-button mode="ios" class="services" expand="block" fill="solid" color="light">
+          <ion-icon class="services-icon" src="./assets/icon/health-care.svg"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row justify-content-center>
+      <ion-label style="font-weight: bold;">Servicios de emergencia</ion-label>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
